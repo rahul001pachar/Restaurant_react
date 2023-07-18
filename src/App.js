@@ -1,7 +1,8 @@
 import React from "react";
-import UseEffect from "./Components/Hooks/useEffect";
+import UseReducer from "./Components/Hooks/useReducer";
+// import UseEffect from "./Components/Hooks/useEffect";
 
 const App = ()=>{
-  return <UseEffect/>; 
+  return <UseReducer/>; 
 }
 export default App 
