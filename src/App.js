@@ -2,7 +2,6 @@ import React from "react";
 import UseState from "./Components/Hooks/useState";
 
 const App = ()=>{
-  return <UseState/>;
+  return <UseState/>; 
 }
-
 export default App 
