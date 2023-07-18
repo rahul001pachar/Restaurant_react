@@ -1,7 +1,7 @@
 import React from "react";
-import UseState from "./Components/Hooks/useState";
+import UseEffect from "./Components/Hooks/useEffect";
 
 const App = ()=>{
-  return <UseState/>; 
+  return <UseEffect/>; 
 }
 export default App 
