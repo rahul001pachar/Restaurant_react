@@ -1,23 +1,8 @@
-import Restaurant from "./Components/Basics/Restaurant";
+import React from "react";
+import UseReducer from "./Components/Hooks/useReducer";
+// import UseEffect from "./Components/Hooks/useEffect";
 
-function App(){
-
-  return (
-    
-    <>
-    <Restaurant/>
-    </>   
-
-  );
+const App = ()=>{
+  return <UseReducer/>; 
 }
-
-// const Name=() => {
-
-//   return (
-
-//     <h3>hiiiiiiiiii</h3>
-
-//   );
-// }
-
 export default App 
