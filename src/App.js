@@ -1,23 +1,8 @@
-import Restaurant from "./Components/Basics/Restaurant";
+import React from "react";
+import UseState from "./Components/Hooks/useState";
 
-function App(){
-
-  return (
-    
-    <>
-    <Restaurant/>
-    </>   
-
-  );
+const App = ()=>{
+  return <UseState/>;
 }
-
-// const Name=() => {
-
-//   return (
-
-//     <h3>hiiiiiiiiii</h3>
-
-//   );
-// }
 
 export default App 
