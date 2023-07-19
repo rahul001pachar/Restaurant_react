@@ -1,9 +1,9 @@
 import React from "react";
 //import UseReducer from "./Components/Hooks/useReducer";
 // import UseEffect from "./Components/Hooks/useEffect";
-import Todo from "./Components/Todoreact/todo";
+import Temp from "./Components/weather/temp";
 
 const App = ()=>{
-  return <Todo/>; 
+  return <Temp/>; 
 }
 export default App 
